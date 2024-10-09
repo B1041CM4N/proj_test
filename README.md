@@ -11,6 +11,9 @@
 ### git switch -c <rama_a_crear> (alternativa a git checkout -b <rama_nueva>?)
 ### git switch -d <rama_a_borrar>
 
+## Git Show
+### git show {-s, -f} (-s es la versión corta del show, -f es la versión completa)
+
 ## Git Stash
 ### git stash save "nombre_identificador_stash"
 ### git stash list (devuelve una lista con los cambios guardados)
