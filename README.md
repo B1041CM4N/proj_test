@@ -13,8 +13,10 @@
 
 ## Git Show
 ### git show {-s, -f} (-s es la versión corta del show, -f es la versión completa)
+### git show <commit_id> (para ver sólo los cambios de ese commit)
 
 ## Git Stash
+### git stash --include-untracked
 ### git stash save "nombre_identificador_stash"
 ### git stash list (devuelve una lista con los cambios guardados)
 ### git stash pop [stash@{a}] (dónde a es la posición del cambio que queremos agregar en el listado de git stash list)
